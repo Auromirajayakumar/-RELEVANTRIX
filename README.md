@@ -24,13 +24,13 @@ RELEVANTRIX/ ├── data/                 # Ingested articles (docs.json) ├
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-2. Ingest articles
+### 2. Ingest articles
 python rss_ingestor.py
-3.Run semantic search
+### 3.Run semantic search
 python
 >>> from search_engine import semantic_search
 >>> semantic_search("artificial intelligence")
-4. Start API
+### 4. Start API
 uvicorn api:app --reload
-5. Launch UI
+### 5. Launch UI
 streamlit run app.py
